@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atron.Sgc", "Atron.Sgc.csproj", "{DDD7B1A9-A282-49B6-8B49-F07758DD8A99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDD7B1A9-A282-49B6-8B49-F07758DD8A99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDD7B1A9-A282-49B6-8B49-F07758DD8A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDD7B1A9-A282-49B6-8B49-F07758DD8A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDD7B1A9-A282-49B6-8B49-F07758DD8A99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A9640B2-5DDC-4413-A8B5-3F5CA7735382}
+	EndGlobalSection
+EndGlobal

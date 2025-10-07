@@ -1,0 +1,6 @@
+@Atron.Sgc_HostAddress = http://localhost:5228
+
+GET {{Atron.Sgc_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
