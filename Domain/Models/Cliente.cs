@@ -1,7 +1,7 @@
 ﻿namespace Atron.Sgc.Domain.Models
 {
     public class Cliente
-    {
+    {      
         public Cliente(long id, string nomeCompleto, string email, string cpf)
         {
             Id = id;
@@ -12,10 +12,10 @@
             Ativo = true;
         }
 
-        public long Id { get; private set; }
-        public string NomeCompleto { get; private set; }
-        public string Email { get; private set; }
-        public string CPF { get; private set; }
+        public long Id { get;  set; }
+        public string NomeCompleto { get;  set; }
+        public string Email { get;  set; }
+        public string CPF { get;  set; }
         public string? Telefone { get; set; }
         public DateTime DataCadastro { get; set; }
         public bool Ativo { get; set; } 
