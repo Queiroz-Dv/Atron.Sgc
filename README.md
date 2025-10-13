@@ -1,4 +1,4 @@
-﻿# Proótipo de Sistema de Gestão Comercial (SGC) - API
+﻿# Protótipo de Sistema de Gestão Comercial (SGC) - API
 
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
 ![Tecnologia](https://img.shields.io/badge/.NET-8-blueviolet)
