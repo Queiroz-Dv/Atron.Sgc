@@ -5,12 +5,11 @@ namespace Atron.Sgc.Services.Interfaces
     public interface IClienteService
     {
         Task<IList<Cliente>> ObterClientesService();
-
-        // Aqui estou definindo o CPF como busca princpal ao invés de usar um ID recebido pelo front
+        
         Task<Cliente> ObterClientePorCPFService(string cpf);
 
-        Task GravarOuAtualizarClienteService(Cliente cliente);
+        Task GravarOuAtualizarClienteService(Cliente cliente, int id);
 
-        Task<bool> RemoverClienteService(Cliente cliente);
+        Task RemoverClienteService(int id);
     }
 }

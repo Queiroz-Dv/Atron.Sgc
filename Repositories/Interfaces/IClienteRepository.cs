@@ -2,15 +2,9 @@
 
 namespace Atron.Sgc.Repositories.Interfaces
 {
-    public interface IClienteRepository
-    {
-        Task<IList<Cliente>> ObterClientesRepository();
-
-        // Aqui estou definindo o CPF como busca princpal ao invés de usar um ID recebido pelo front
-        Task<Cliente> ObterClientePorCPFRepository(string cpf);
-                
-        Task GravarOuAtualizarClienteRepository(Cliente cliente);
-
-        Task<bool> RemoverClienteRepository(Cliente cliente);
+    public interface IClienteRepository : IRepository<Cliente>
+    {                
+        Task<Cliente> ObterClientePorCPFRepository(string cpf);                       
+        Task<bool> EmailExiste(string email);
     }
 }
